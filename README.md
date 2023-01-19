@@ -6,6 +6,7 @@ Draftbit's specialized component library. Based on react-native-deck-swiper, thi
 
 ```sh
 git clone https://github.com/lastsaintcrucified/Draftbit_interview_deckSwiper
+yarn
 yarn android
 ```
 
