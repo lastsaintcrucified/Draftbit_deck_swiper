@@ -5,9 +5,9 @@ import CardComponent from "./card";
 
 type Props = {
   listData?: any[];
-  isInifinite?: boolean = false;
-  horizontalSwipe?: boolean = true;
-  verticalSwipe?: boolean = true;
+  isInifinite?: boolean;
+  horizontalSwipe?: boolean;
+  verticalSwipe?: boolean;
   onSwiped?: () => void;
   onSwipedAll?: () => void;
 };

@@ -3,6 +3,7 @@
   "allowSyntheticDefaultImports": true,
   "esModuleInterop": true,
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "lib": ["es5", "es6", "dom", "dom.iterable"]
   }
 }

@@ -6,6 +6,7 @@ const Demo = () => {
   return (
     <View>
       <StatusBar backgroundColor="transparent" barStyle="dark-content" />
+
       <Text style={styles.title}>Deck Swiper</Text>
       <DeckSwiper
         listData={data.users}
