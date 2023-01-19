@@ -18,10 +18,10 @@ export const SEED_DATA = {
       label: "Infinite loop?",
     }),
     horizontalSwipe: createStaticBoolProp({
-      label: "Disable Horizontal Swap", //new prop for interview test
+      label: "Enable/Disable Horizontal Swap", //new prop for interview test
     }),
     verticalSwipe: createStaticBoolProp({
-      label: "Disable Vertical Swap", //new prop for interview test
+      label: "Enable/Disable Vertical Swap", //new prop for interview test
     }),
     onSwiped: createActionProp({
       label: "Inactive Color",
